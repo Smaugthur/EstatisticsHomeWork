@@ -1,28 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-namespace test
+namespace ESTATISTICS
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // INPUT VALUES
-            int[] input = new int[]{1,1,5,5,5}; // <---- WRITE YOUR LIST OF VALUES HERE
-            Array.Sort(input);
-            int[] values = Estatistics.frecuencyValues(input); 
-            int[] frecuency = Estatistics.absoluteFrecuency(values,input);
-
-            // OUTPUT VALUES
-            Console.WriteLine($"|{"VALUE",-15}|{"FRECUENCY",-15}|");
-            for(int i=0; i<values.Length; i++)
-            {
-                Console.WriteLine($"|{values[i],-15}|{frecuency[i],-15}|");
-            }
-        }
-    }
-
-    class Estatistics
+    class FrecuencyMethods
     {
         public static int[] frecuencyValues(int[] input)
         {
@@ -57,6 +38,18 @@ namespace test
                 }
             }
             return absoluteFrecuencyValues;
+        }
+        public static int[] cumulativeFrecuency(int[] absoluteFrecuency)
+        {
+            int[] cumulativeFrecuencies = new int[absoluteFrecuency.Length];
+            for(int i=0;i<absoluteFrecuency.Length;i++)
+            {
+                for(int e=0;e<=i;e++)
+                {
+                    cumulativeFrecuencies[i]+=absoluteFrecuency[e];
+                }
+            }
+            return cumulativeFrecuencies;
         }
     }
 }

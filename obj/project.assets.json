@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\DaniClub\\Programacion\\test\\test.csproj",
+      "projectUniqueName": "R:\\Toolkit\\Mirror\\Programacion\\test\\test.csproj",
       "projectName": "test",
-      "projectPath": "D:\\Documentos\\DaniClub\\Programacion\\test\\test.csproj",
+      "projectPath": "R:\\Toolkit\\Mirror\\Programacion\\test\\test.csproj",
       "packagesPath": "C:\\Users\\ccaro\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\DaniClub\\Programacion\\test\\obj\\",
+      "outputPath": "R:\\Toolkit\\Mirror\\Programacion\\test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ccaro\\AppData\\Roaming\\NuGet\\NuGet.Config"
