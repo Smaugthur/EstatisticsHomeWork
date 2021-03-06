@@ -1,0 +1,9 @@
+R:\Toolkit\Mirror\Programacion\test\bin\Debug\netstandard2.0\test.deps.json
+R:\Toolkit\Mirror\Programacion\test\bin\Debug\netstandard2.0\test.dll
+R:\Toolkit\Mirror\Programacion\test\bin\Debug\netstandard2.0\test.pdb
+R:\Toolkit\Mirror\Programacion\test\obj\Debug\netstandard2.0\test.csprojAssemblyReference.cache
+R:\Toolkit\Mirror\Programacion\test\obj\Debug\netstandard2.0\test.AssemblyInfoInputs.cache
+R:\Toolkit\Mirror\Programacion\test\obj\Debug\netstandard2.0\test.AssemblyInfo.cs
+R:\Toolkit\Mirror\Programacion\test\obj\Debug\netstandard2.0\test.csproj.CoreCompileInputs.cache
+R:\Toolkit\Mirror\Programacion\test\obj\Debug\netstandard2.0\test.dll
+R:\Toolkit\Mirror\Programacion\test\obj\Debug\netstandard2.0\test.pdb
