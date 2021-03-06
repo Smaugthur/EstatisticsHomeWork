@@ -1,0 +1,13 @@
+D:\Documentos\DaniClub\Programacion\test\bin\Debug\netcoreapp3.1\test.exe
+D:\Documentos\DaniClub\Programacion\test\bin\Debug\netcoreapp3.1\test.deps.json
+D:\Documentos\DaniClub\Programacion\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+D:\Documentos\DaniClub\Programacion\test\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+D:\Documentos\DaniClub\Programacion\test\bin\Debug\netcoreapp3.1\test.dll
+D:\Documentos\DaniClub\Programacion\test\bin\Debug\netcoreapp3.1\test.pdb
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.csprojAssemblyReference.cache
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.dll
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.pdb
+D:\Documentos\DaniClub\Programacion\test\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
