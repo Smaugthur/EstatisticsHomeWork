@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "spSKcA3nwB37VZXKGLDdGYexJgpZ42fiS2ahfulQtWYszgSL4RR4bpt0kB6eYmW2Ek5WVLXvBLBaoeCrU/Zdpg==",
+  "dgSpecHash": "8NnRzF9HvazeCvCEPN5MIcR5fX8h0OQGccyKrPKH3B/Eyu5FYCNAx73xAa57Zn6yJWfYvAhHQ431trBryCSK0g==",
   "success": true,
-  "projectFilePath": "R:\\Toolkit\\Mirror\\Programacion\\test\\test.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\hp\\Documents\\daniclub\\programación\\EstatisticsHomeWork\\test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.12\\microsoft.netcore.app.host.win-x64.3.1.12.nupkg.sha512"
+  ],
   "logs": []
 }

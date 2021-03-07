@@ -12,7 +12,7 @@ namespace test
             do{
                 // INPUT VALUES
                 Console.Clear();
-                Console.WriteLine("\nEnter your values' list with commas withouth spaces.\nEx:1,3,4,3,3\n\nINSERT YOUR VALUES:");
+                Console.WriteLine("\nEnter your values' list separated with spaces.\nEx:1 3 4 3 3\n\nINSERT YOUR VALUES:");
                 int[] input = InputMethods.inputArray();
                 Array.Sort(input);
                 
@@ -22,8 +22,12 @@ namespace test
                 int[] cumulativeFrecuencies = FrecuencyMethods.cumulativeFrecuency(frecuency);
 
                 // OUTPUT VALUES
-                Console.WriteLine("Your data would look like:\n");
-                Console.WriteLine($"|{"VALUE",-15}|{"FRECUENCY",-15}|{"CUMULUTATIVE F",-15}|");
+                Console.WriteLine("Your data would look like:");
+                foreach(int i in input)
+                {
+                    Console.Write(i+",");
+                }
+                Console.WriteLine($"\n\n|{"VALUE",-15}|{"FRECUENCY",-15}|{"CUMULUTATIVE F",-15}|");
                 for(int i=0; i<values.Length; i++)
                 {
                     Console.WriteLine($"|{values[i],-15}|{frecuency[i],-15}|{cumulativeFrecuencies[i],-15}|");
