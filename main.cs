@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using INPUT;
-using ESTATISTICS;
+using OUTPUT;
+using STATISTICS;
 
 namespace test
 {
@@ -13,30 +14,16 @@ namespace test
                 // INPUT VALUES
                 Console.Clear();
                 Console.WriteLine("\nEnter your values' list separated with spaces.\nEx:1 3 4 3 3\n\nINSERT YOUR VALUES:");
-                int[] input = InputMethods.inputArray();
-                Array.Sort(input);
-                
-                // CALCULATING ESTATISTIC PARAMETERS
-                int[] values = FrecuencyMethods.frecuencyValues(input); 
-                int[] frecuency = FrecuencyMethods.absoluteFrecuency(values,input);
-                int[] cumulativeFrecuencies = FrecuencyMethods.cumulativeFrecuency(frecuency);
+                float[] inputData = InputMethods.inputArray();
+
+                // CALCULATING STATISTICS
+                Statistics Data = new Statistics(inputData);
 
                 // OUTPUT VALUES
                 Console.WriteLine("Your data would look like:");
-                foreach(int i in input)
-                {
-                    Console.Write(i+",");
-                }
-                Console.WriteLine($"\n\n|{"VALUE",-15}|{"FRECUENCY",-15}|{"CUMULUTATIVE F",-15}|");
-                for(int i=0; i<values.Length; i++)
-                {
-                    Console.WriteLine($"|{values[i],-15}|{frecuency[i],-15}|{cumulativeFrecuencies[i],-15}|");
-                }
-                Console.WriteLine($"|{"TOTAL",15}|{input.Length,15}|{"",15}|\n");
-
+                OutputMethods.printTable(Data);
                 Console.Write("Press <Enter> to make another table...\nPress any other key to exit...");
             }while(Console.ReadKey().Key == ConsoleKey.Enter);
         }
     }
-
 }

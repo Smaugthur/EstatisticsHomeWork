@@ -1,18 +1,30 @@
 using System;
 using System.Collections.Generic;
 
-namespace ESTATISTICS
+namespace STATISTICS
 {
-    class FrecuencyMethods
+    class Statistics
     {
-        public static int[] frecuencyValues(int[] input)
+        public float[] inputData;
+        public float[] frecuencyValues;
+        public float[] absoluteFrecuency;
+        public float[] cumulativeFrecuency;
+
+        public Statistics(float[] inputData)
         {
-            List<int> values=new List<int>{input[0]};
+            this.inputData = inputData;
+            frecuencyValues = GetFrecuencyValues(this.inputData);
+            absoluteFrecuency = GetAbsoluteFrecuency(this.inputData, frecuencyValues);
+            cumulativeFrecuency = GetCumulativeFrecuency(absoluteFrecuency);
+        }
+        public static float[] GetFrecuencyValues(float[] inputData)
+        {
+            List<float> frecuencyValues = new List<float>{inputData[0]};
             bool isNotOnTheList;
-            foreach(int i in input)
+            foreach(float i in inputData)
             {
-                isNotOnTheList=true;
-                foreach(int e in values)
+                isNotOnTheList = true;
+                foreach(float e in frecuencyValues)
                 {
                     if(i==e)
                     {
@@ -20,28 +32,28 @@ namespace ESTATISTICS
                         break;
                     }
                 }
-                if(isNotOnTheList) values.Add(i);
+                if(isNotOnTheList) frecuencyValues.Add(i);
             }
-            return values.ToArray();
+            return frecuencyValues.ToArray();
         }
-        public static int[] absoluteFrecuency(int[] values, int[] data)
+        public static float[] GetAbsoluteFrecuency(float[] inputData, float[] frecuencyValues)
         {
-            int[] absoluteFrecuencyValues= new int[values.Length];
-            for(int i=0; i<values.Length;i++)
+            float[] absoluteFrecuency= new float[frecuencyValues.Length];
+            for(int i=0; i<frecuencyValues.Length;i++)
             {
-                foreach(int e in data)
+                foreach(float e in inputData)
                 {
-                    if(values[i]==e)
+                    if(frecuencyValues[i]==e)
                     {
-                        absoluteFrecuencyValues[i]++;
+                        absoluteFrecuency[i]++;
                     }
                 }
             }
-            return absoluteFrecuencyValues;
+            return absoluteFrecuency;
         }
-        public static int[] cumulativeFrecuency(int[] absoluteFrecuency)
+        public static float[] GetCumulativeFrecuency(float[] absoluteFrecuency)
         {
-            int[] cumulativeFrecuencies = new int[absoluteFrecuency.Length];
+            float[] cumulativeFrecuencies = new float[absoluteFrecuency.Length];
             for(int i=0;i<absoluteFrecuency.Length;i++)
             {
                 for(int e=0;e<=i;e++)

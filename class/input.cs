@@ -4,10 +4,11 @@ namespace INPUT
 {
     class InputMethods
     {
-        public static int[] inputArray()
+        public static float[] inputArray()
         {
             string[] StringInput= Console.ReadLine().Split(' ',StringSplitOptions.RemoveEmptyEntries);
-            int[] input = Array.ConvertAll(StringInput, s => int.Parse(s));
+            float[] input = Array.ConvertAll(StringInput, s => float.Parse(s));
+            Array.Sort(input);
             Console.Clear();
             return input;
         }
