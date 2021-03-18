@@ -50,3 +50,16 @@ D:\Documentos\DaniClub\Programacion\test\EstatisticsHomeWork\obj\Debug\netcoreap
 D:\Documentos\DaniClub\Programacion\test\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.dll
 D:\Documentos\DaniClub\Programacion\test\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.pdb
 D:\Documentos\DaniClub\Programacion\test\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.exe
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.deps.json
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.dll
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.pdb
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.csprojAssemblyReference.cache
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.dll
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.pdb
+D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
