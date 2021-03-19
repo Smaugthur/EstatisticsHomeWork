@@ -63,3 +63,16 @@ D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.
 D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.dll
 D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.pdb
 D:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.exe
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.deps.json
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.runtimeconfig.json
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.runtimeconfig.dev.json
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.dll
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\bin\Debug\netcoreapp3.1\test.pdb
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.csprojAssemblyReference.cache
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.AssemblyInfoInputs.cache
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.AssemblyInfo.cs
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.csproj.CoreCompileInputs.cache
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.dll
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.pdb
+R:\Toolkit\Mirror\Programacion\EstatisticsHomeWork\obj\Debug\netcoreapp3.1\test.genruntimeconfig.cache
