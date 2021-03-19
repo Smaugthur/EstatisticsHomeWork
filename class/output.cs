@@ -25,7 +25,7 @@ namespace OUTPUT
                 Console.Write(i+",");
             }
             Console.WriteLine($"\n\n|{"VALUE",-15}|{"FRECUENCY",-15}|{"CUMULUTATIVE F",-15}|{"RELATIVE F", -15}|");
-            for(int i=0; i < Data.frecuencyValues.GetLength(1); i++)
+            for(int i=0; i < Data.frecuencyValues.GetLength(0); i++)
             {
                 Console.WriteLine($"|{Data.frecuencyValues[i,0] + " - " + Data.frecuencyValues[i,1],-15}|{Data.absoluteFrecuency[i],-15}|{Data.cumulativeFrecuency[i],-15}|{Data.relativeFrecuency[i], +15}|");
             }
